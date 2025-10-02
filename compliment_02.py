@@ -1,8 +1,8 @@
 # FILE NAME - compliment_02.py
 
-# NAME: 
-# DATE: 
-# BRIEF DESCRIPTION:  
+# NAME: ANTONIO SANTIAGO
+# DATE: 10/1/2025
+# BRIEF DESCRIPTION:  The user is prompted whether they want a compliment or not. If they choose "yes", then a compliment is given or not. Either way, the user is thanked for participating.
 
 
 
@@ -15,7 +15,21 @@
 
 ########## ENTER YER CODE BELOW THIS LINE ##########
 
+def main():
+    givecompliment()
 
+
+def givecompliment():
+    reply = input("Would you like a compliment? ")
+
+    if reply == "yes":
+        print("You have wonderful eyes.")
+    else:
+        print("No compliment for you!")
+
+    print("Thank you for playing.")
+
+main()
 
 
 
@@ -70,7 +84,7 @@ Thank you for playing.
 '''
 
 1. Did you struggle with this lab (YES/NO)?
-
+NO
 
 
 
